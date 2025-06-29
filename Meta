@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meta5 - Investment Solutions</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Meta5</h1>
+      <nav>
+        <a href="#services">Investment Services</a>
+        <a href="#funds">Fund Management</a>
+        <a href="#stocks">Stock Management</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Your Partner in Smart Investments</h2>
+      <p>Meta5 offers professional investment strategies and fund management solutions.</p>
+    </div>
+  </section>
+
+  <section id="services" class="container">
+    <h2>Investment Services</h2>
+    <p>We provide a range of investment strategies tailored to meet client goals.</p>
+  </section>
+
+  <section id="funds" class="container">
+    <h2>Fund Management</h2>
+    <p>Meta5 manages diversified portfolios with a focus on long-term growth.</p>
+  </section>
+
+  <section id="stocks" class="container">
+    <h2>Stock Management</h2>
+    <p>We monitor and optimize stock portfolios using data-driven decisions.</p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>Email: contact@meta5.com</p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Meta5 Investments. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #ffffff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  background: #f8f9fa;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  display: inline;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+#hero {
+  background: #eef2f7;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #555;
+}
